@@ -27,7 +27,7 @@ const authLink = setContext((_, { headers }) => {
 
 // instantiate ApolloClient by passing in the httpLink and a new instance of an InMemoryCache
 const client = new ApolloClient({
-  llink: authLink.concat(httpLink),
+  link: authLink.concat(httpLink),
   cache: new InMemoryCache()
 });
 
