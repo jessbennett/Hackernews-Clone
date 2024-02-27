@@ -1,1 +1,1 @@
- A Graphql prima data model. For all solutions. 
+ A Graphql Prisma data model. For all solutions. 
